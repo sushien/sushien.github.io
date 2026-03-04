@@ -1,0 +1,2155 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+     "http://www.w3.org/TR/html4/transitional.dtd">
+<html>
+<head>
+
+  <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  <title>M2C V2.0 User Guide</title>
+  <meta name="generator" content="LibreOffice 25.8.4.2 (Linux)"/>
+  <meta name="author" content="Priyanka Mahesh"/>
+  <meta name="created" content="2023-07-27T11:22:34"/>
+  <meta name="changedby" content="Vishnu Mohan"/>
+  <meta name="changed" content="2026-03-04T06:57:35"/>
+  <meta name="AppVersion" content="16.0000"/>
+  <meta name="ContentTypeId" content="0x010100E3B20B88E477054E9DE702B98A1257E0"/>
+  <meta name="MSIP_Label_23f93e5f-d3c2-49a7-ba94-15405423c204_ActionId" content="fabf7a1d-7678-4ace-b142-a39391b09f4d"/>
+  <meta name="MSIP_Label_23f93e5f-d3c2-49a7-ba94-15405423c204_ContentBits" content="2"/>
+  <meta name="MSIP_Label_23f93e5f-d3c2-49a7-ba94-15405423c204_Enabled" content="true"/>
+  <meta name="MSIP_Label_23f93e5f-d3c2-49a7-ba94-15405423c204_Method" content="Standard"/>
+  <meta name="MSIP_Label_23f93e5f-d3c2-49a7-ba94-15405423c204_Name" content="SE Internal"/>
+  <meta name="MSIP_Label_23f93e5f-d3c2-49a7-ba94-15405423c204_SetDate" content="2023-08-02T13:40:01Z"/>
+  <meta name="MSIP_Label_23f93e5f-d3c2-49a7-ba94-15405423c204_SiteId" content="6e51e1ad-c54b-4b39-b598-0ffe9ae68fef"/>
+  <meta name="MediaServiceImageTags" content=""/>
+  <meta name="Notes" content="19"/>
+  <meta name="PresentationFormat" content="Widescreen"/>
+  <meta name="Slides" content="92"/>
+</head>
+<body>
+<h1>M2C and Part Tracker User Guide
+<b>V2.8</b></h1>
+<h2>QR Code Tool Kit</h2>
+<h1 style="page-break-before:always; ">How can I help you today?</h1>
+<h2>How can I help you today?</h2>
+<ul>
+<li>What is M2C tool?............................................................................................................</li>
+<li>How to get started with it?................................................................................................</li>
+<li>Landing page walkthrough……………………………………………………………………...</li>
+<li>Different types of accesses?.............................................................................................</li>
+<li>What all masters do I have access of?.............................................................................</li>
+<li>How do I create an asset?................................................................................................</li>
+<li>How do I upload documents in an asset?.........................................................................</li>
+<li>How do I update an asset?...............................................................................................</li>
+<li>How do I transfer an asset?.............................................................................................</li>
+<li>How to create a KIOSK in M2C………………………………………………………………...</li>
+<li>Can I get multi plant access?...........................................................................................</li>
+<li>How do I enable custom documents for document upload?.............................................</li>
+<li>How many custom documents can I upload for an asset?...............................................</li>
+<li>Why do I not see any document folders when I click document upload?..........................</li>
+<li>How do I enable RPA Bot process for M2C data upload…………………………………….</li>
+<li>M2C Monitoring dashboard walkthrough?.........................................................................</li>
+<li>Glossary of symbols ……………………………………………............................................			</li>
+<li>Glossary of connectivity tags ………………………………………………………………....	</li>
+<li>Glossary of links………………………………………………………………………………….</li>
+<li>Possible error screenshots and troubleshooting solutions…………………………………..</li>
+</ul>
+<p><b>Please click on the respective button on which you would need some support</b></p>
+<p><b>Quick links to key features of M2C</b></p>
+<p><b>Cloud Synch</b></p>
+<p><b>Bulk Upload</b></p>
+<p><b>Bulk Update</b></p>
+<p><b>Master Setting Access</b></p>
+<p><b>Cloud folder access</b></p>
+<p><b>RPA Bot</b></p>
+<p>Note: Click on the        icon to return to this page </p>
+<h1 style="page-break-before:always; ">M2C V2.0 Overview</h1>
+<h2>QR Code Tool Kit</h2>
+<h1 style="page-break-before:always; ">What is M2C 2.0?</h1>
+<h2>What is M2C 2.0?</h2>
+<p><b>M2C ( Manufacture to Cloud) </b>is an internal web-based solution built on outsystems platform with the main objective of enabling end to end traceability of MV ranges and equipments . It does 3 key activities:</p>
+<ul>
+<ul>
+<li>Serial number generation</li>
+<li>QR Code Printing</li>
+<li>Document upload to ALM </li>
+</ul>
+</ul>
+<p>E2E Traceability</p>
+<p>M2C 2.0</p>
+<p>Serial Number Generator</p>
+<p>QR Code Printing&nbsp;</p>
+<p>Document upload to ALM</p>
+<p>LDS/Part Tracker</p>
+<p>Android /iOS Mobile app</p>
+<p>Industrial Scanner</p>
+<p><b>How M2C fits in the overall E2E traceability architecture</b></p>
+<p><b>The hierarchy flow for the registered product</b></p>
+<p>Sales Order</p>
+<p>KIOSK</p>
+<p>Switchboard</p>
+<p>Cubicle</p>
+<p>Device</p>
+<p>Component</p>
+<p>M2C</p>
+<p>LDS/Part Tracker</p>
+<h1 style="page-break-before:always; ">Different types of users and level of access provided?</h1>
+<h2>Different types of users and level of access provided?</h2>
+<h1 style="page-break-before:always; ">QR Code Champion Roles &amp; Responsibilities</h1>
+<h2>QR Code Champion Roles &amp; Responsibilities</h2>
+<p><b>Main activities</b></p>
+<ul>
+<li>Define  site activities, including KPI governance, to secure QR-Code process to feed digital logbook incl. a high data accuracy </li>
+<li>SPOC for QR-Code related questions in their respective site from customers, partners, suppliers and Schneider Electric</li>
+<li>Industrialize creation of the QR Codes on the lines (Purchase of printer, definition of the location with industrial engineer, …) + define process of upload of the documents by respective Site</li>
+<p><b></b></p>
+<p><b>Daily basis </b></p>
+<li>Contact for QR-code questions / support / escalation in their respective site</li>
+<li>Ensure the compliance and the quality of the process in place to assure customer satisfaction</li>
+<p><b></b></p>
+<p><b>On regular basis</b></p>
+<li>Provide Training and Refresher for concerned people in their respective site</li>
+<li>Participate to monthly calls with the QR-code community and other webinars (M2C, EPC, E2E) to understand current and future projects and process related information. </li>
+<li>Assure the communication in his plant for the relevant information</li>
+<li>Setup / Update settings in QR-code related software used by plant (M2C, EPC, …)</li>
+<li>Support root cause analysis in case of customer complaint related to QR-code and digital logbook</li>
+<li>Propose through the ticketing system enhancements of the tool to improve efficiency</li>
+<p><b>Being a QR Code Champion is not a full-time job, but it is a very important role that requires flexibility. Depending on project status, process robustness and process escalations the load has to be adapted very flexibly. </b></p>
+<li>Workload related to new projects depends on the nature of the project: limited period</li>
+</ul>
+<ul>
+<li>Responsible of the QR-Code process in their respective site </li>
+<li>Project Management competency, Business knowledge &amp; Digital Savvy profile along with connected offer basic knowledge are required</li>
+<li>QR Code Champion back-up is a must for a sustainable QR-code performance and a robust process</li>
+<li>Recommended Job code: IST4, IST5, DPP4, QAT4, QBT5</li>
+</ul>
+<h1 style="page-break-before:always; ">RACI for Digital Logbook</h1>
+<h2>RACI for Digital Logbook</h2>
+<table>
+  <tr>
+    <td>
+<p>&nbsp;</p>
+    </td>
+    <td>
+<p><b>PLANT</b></p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+<p><b>Support Function</b></p>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Tasks</b></p>
+    </td>
+    <td>
+<p>PM leader</p>
+    </td>
+    <td>
+<p>Project Engineering</p>
+    </td>
+    <td>
+<p>Production</p>
+    </td>
+    <td>
+<p>FQC</p>
+    </td>
+    <td>
+<p>FAT</p>
+    </td>
+    <td>
+<p>Customer Advocate</p>
+    </td>
+    <td>
+<p>Product/process quality engineer</p>
+    </td>
+    <td>
+<p>Regional CS&amp;Q</p>
+    </td>
+    <td>
+<p>IPM</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>QR code creation in M2C</p>
+    </td>
+    <td>
+<p>C</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+    <td>
+<p><b>R</b></p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>QR code existence control (100%)</p>
+    </td>
+    <td>
+<p>C</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+    <td>
+<p>C</p>
+    </td>
+    <td>
+<p><b>R</b></p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+    <td>
+<p>A</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>Digital logbook files creation + uploading</p>
+    </td>
+    <td>
+<p>A</p>
+    </td>
+    <td>
+<p><b>R</b></p>
+    </td>
+    <td>
+<p>C</p>
+    </td>
+    <td>
+<p><b>R</b></p>
+    </td>
+    <td>
+<p><b>R</b></p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>Transfert the assets to FO with push mail [IG Flow]</p>
+    </td>
+    <td>
+<p><b>R</b></p>
+    </td>
+    <td>
+<p>C</p>
+    </td>
+    <td>
+<p>C</p>
+    </td>
+    <td>
+<p>C</p>
+    </td>
+    <td>
+<p>C</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+    <td>
+<p>Accountability is out of plant</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>Asset registation (End-user address) [OG Flow] </p>
+    </td>
+    <td>
+<p><b>R</b></p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+    <td>
+<p>Accountability is out of plant</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>Digital logbook files content control (sampling in surveillance process)</p>
+    </td>
+    <td>
+<p>C</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+    <td>
+<p><b>R</b></p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>Track File Transfer Completion for IG &amp; Asset registration for OG in PM SIM board</p>
+    </td>
+    <td>
+<p><b>R</b></p>
+    </td>
+    <td>
+<p>C</p>
+    </td>
+    <td>
+<p>C</p>
+    </td>
+    <td>
+<p>C</p>
+    </td>
+    <td>
+<p>C</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+    <td>
+<p>Accountability is not present</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>DATA flow (QR Code, Logbook, Pushmail/Asset registration) weekly monitoring (M2C Dashboard)</p>
+    </td>
+    <td>
+<p>C</p>
+    </td>
+    <td>
+<p>C</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+    <td>
+<p>C</p>
+    </td>
+    <td>
+<p><b>R</b></p>
+    </td>
+    <td>
+<p>A</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>DATA flow monthly monitoring (M2C Dashboard)</p>
+    </td>
+    <td>
+<p>C</p>
+    </td>
+    <td>
+<p>C</p>
+    </td>
+    <td>
+<p>C</p>
+    </td>
+    <td>
+<p>C</p>
+    </td>
+    <td>
+<p>C</p>
+    </td>
+    <td>
+<p><b>R</b></p>
+    </td>
+    <td>
+<p>A</p>
+    </td>
+    <td>
+<p><b>R</b></p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>Plant Dashboard to be included and presented during QOR (Quarterly)</p>
+    </td>
+    <td>
+<p>A</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+    <td>
+<p><b>R</b></p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+    <td>
+<p>&nbsp;</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>RAC definition</p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>There must be only one accountable specified for each task or deliverable</p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>R = Responsible. Those who do the work to complete the task</p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>A = Accountable (or final approving authority). The one ultimately answerable for the correct and 
+thorough completion of the deliverable or task, the one who ensures the prerequisites of the task are met and who delegates the work to those responsible</p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>C = Consulted (sometimes contributor). Those whose opinions are sought, typically subject-matter 
+experts</p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+</table>
+<h1 style="page-break-before:always; ">How to get started with it?</h1>
+<h2>How to get started with it?</h2>
+<p><b>Access the M2C tool using this link</b>: <a href="https://leap.schneider-electric.com/m2c"><u>https://leap.schneider-electric.com/m2c</u></a></p>
+<p>&nbsp;</p>
+<p>Step 1: When you access this link for the first time, you will be directed to this page . Click on register &nbsp;</p>
+<p>Step 2: Fill this form and a request will be sent to plant admin for approval</p>
+<p><b>FAQ:</b></p>
+<ul>
+<li>Is the process same for SESI ID? No, Please reach out to STEP team if you want to get a SESI ID activated for M2C use. Upt o 15 SESI accounts can be added </li>
+</ul>
+<h1 style="page-break-before:always; ">The landing page </h1>
+<h2>The landing page </h2>
+<p>Home Icon – Redirect to Landing Page</p>
+<p>Get Started – Redirect to Home page</p>
+<p>Page &lt;number&gt;</p>
+<p>Confidential Property of Schneider Electric |</p>
+<h1 style="page-break-before:always; ">Landing Page walkthrough (1/2)</h1>
+<h2>Landing Page walkthrough (1/2)</h2>
+<p><b>FAQ:</b></p>
+<ul>
+<li>I am unable to delete a record ? Please check if there are documents attached to the record, you cannot delete record if they have documents attached to them already. Raise a ticket to delete such a record</li>
+<li>I am unable to delete a Switch board even though there are no documents attached to them? In the case of SWB, if you want to delete them, you will have to transfer the cubicles under it to another SWB asset</li>
+</ul>
+<p>Indicates cubicle record</p>
+<p>Indicates switchboard record</p>
+<p>Indicates closed project</p>
+<p>Button to create asset</p>
+<p>If you want to refresh data</p>
+<ul>
+<li>Bulk Upload: to upload more than 1 asset at a time</li>
+<li>Bulk Update: to update multiple entries at a time</li>
+<li>Download excel: if you want to export data on screen to excel</li>
+</ul>
+<ul>
+<li>IG Transfer: If you want to transfer asset to Front Office</li>
+<li>OG Flow: : If you want to transfer asset to Outside Group</li>
+<li>IP Flow: If you want to transfer asset to another plant</li>
+</ul>
+<p>Toggle this button to view all assets listed as products</p>
+<p>Select date range to see all the assets in that period</p>
+<p>To filter products or equipments</p>
+<p>Indicates entry made through cloud synch</p>
+<p>Shows status of documents uploaded for the asset. The number indicates the count of documents</p>
+<p>Click here to add a SWB for the cubicle</p>
+<p>Click here to add a cubicle for the SWB</p>
+<p>Click here to add documents</p>
+<p>More options like </p>
+<ul>
+<li>Reprint QR Code</li>
+<li>Update connectivity level</li>
+<li>Clone document </li>
+<li>Update record</li>
+</ul>
+<p>You can view your user access type </p>
+<h1 style="page-break-before:always; ">Landing Page walkthrough (2/2)</h1>
+<h2>Landing Page walkthrough (2/2)</h2>
+<table>
+  <tr>
+    <td>
+<p><b>Header Name</b></p>
+    </td>
+    <td>
+<p><b>Header Description</b></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>Select Top 25</p>
+    </td>
+    <td>
+<p>This helps you select top 25 assets in one click</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>Serial Number</p>
+    </td>
+    <td>
+<p>The serial number generated for each asset</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>Project Reference</p>
+    </td>
+    <td>
+<p>Project reference number that you have provided for the asset</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>BOSalesOrderNo-Item</p>
+    </td>
+    <td>
+<p>BOSO-SOI value as given while creating asset</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>ProductionOrderNo</p>
+    </td>
+    <td>
+<p>Production Order No as given while creating asset</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>Product Family</p>
+    </td>
+    <td>
+<p>It indicates which product family the asset belongs to</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>Generated by</p>
+    </td>
+    <td>
+<p>The asset has been generated by which user</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>Generated on</p>
+    </td>
+    <td>
+<p>The timestamp of the asset at which it was generated</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>Number of Documents</p>
+    </td>
+    <td>
+<p>If a number is written against the document symbol, it shows the number of documents in the asset, If no number is written, it means zero documents</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>Plant</p>
+    </td>
+    <td>
+<p>Plant for which the asset has been generated</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>Actions</p>
+    </td>
+    <td>
+<p>On clicking those three dots you will get more options : reprint qr code, delete record, update connectivity level and update record</p>
+    </td>
+  </tr>
+</table>
+<h1 style="page-break-before:always; ">Master Settings Overview</h1>
+<h2>Master Settings Overview</h2>
+<table>
+  <tr>
+    <td>
+<p><b>User Type</b></p>
+    </td>
+    <td>
+<p><b>Master Settings</b></p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td>
+<p><b>Plant Master</b></p>
+    </td>
+    <td>
+<p><b>Manage Users</b></p>
+    </td>
+    <td>
+<p><b>Product Masters</b></p>
+    </td>
+    <td>
+<p><b>Document Masters</b></p>
+    </td>
+    <td>
+<p><b>Correct Generic Ref for MTO/Transac</b></p>
+    </td>
+    <td>
+<p><b>Plant Region Masters</b></p>
+    </td>
+    <td>
+<p><b>Release Master</b></p>
+    </td>
+    <td>
+<p><b>Alert push mail </b></p>
+    </td>
+    <td>
+<p><b>API Config Master</b></p>
+    </td>
+    <td>
+<p><b>VI Offers &amp; Rule Master</b></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>Super Admin</p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>Plant Admin</p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>QR Code Generator</p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>FO Master</p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>Document Upload</p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>User</p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+</table>
+<p>Master settings have the following sub sections, but basis the user type provided to you, you will see the sections allotted to you</p>
+<p>There are 8 sections under Master Setting. A high level overview is as follows. <b>Click on each title </b>to understand more details </p>
+<ul>
+<li><u><b>Plant Master</b></u>: Used by plant admin to set up their plant, define the equipments/products under them, what kind of documents to be uploaded for them etc</li>
+<li><u><b>Manage Users</b></u>: Used to define access for users </li>
+<li><u><b>Product Masters: </b></u>To define new products/equipments along with their commercial reference number and to modify existing ones </li>
+<li><u><b>Document Masters: </b></u>To define new documents that need to be enabled in M2C application</li>
+<li><u><b>Correct Generic Ref for MTO/Transac</b></u>: To upload and update generic reference numbers of assets under Transac offer</li>
+<li><u><b>Plant Region Masters</b></u>: To create an new plant region master </li>
+<li><u><b>Release Master</u>: </b>documents all the releases of the M2C app and all release notes can be found here</li>
+<li>Alert push mail for non connectable assets:</li>
+<li>API Configuration Master:  </li>
+</ul>
+<h1 style="page-break-before:always; ">Audit Log Settings</h1>
+<h2>Audit Log Settings</h2>
+<table>
+  <tr>
+    <td>
+<p><b>User Type</b></p>
+    </td>
+    <td>
+<p><b>Audit Log Settings</b></p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td>
+<p>Audit Logs</p>
+    </td>
+    <td>
+<p>Common Settings</p>
+    </td>
+    <td>
+<p>Clone document Log Masters</p>
+    </td>
+    <td>
+<p>Asset Info Logs</p>
+    </td>
+    <td>
+<p>Document Audit Logs</p>
+    </td>
+    <td>
+<p>Community FO Email Logs</p>
+    </td>
+    <td>
+<p>Cloud Synch Audit Logs</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>Super Admin</p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>Plant Admin</p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>QR Code Generator</p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>FO Master</p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>Document Upload</p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>User</p>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+</table>
+<p>Audit Log settings have the following sub sections, but basis the user type provided to you, you will see the sections allotted to you</p>
+<p>There are 8 sections under Master Setting. A high level overview is as follows. <b>Click on each title </b>to understand more details </p>
+<ul>
+<li><u><b>Audit Logs</u>: </b>This tab helps you see the status of every transaction done in M2C. This is key in troubleshooting issues</li>
+<li><u><b>Common Settings</u>: </b>Technical configurations</li>
+<li><u><b>Clone Document Log Masters</u>: </b>To understand the status of every document clone transaction</li>
+<li><u><b>Asset Info Logs</u>: </b>To view details of all assets created</li>
+<li><u><b>Document Audit Logs</u>: </b>To view details of all the documents uploaded for assets</li>
+<li><u><b>Community FO Email Logs</u>: </b>To view details of all the users added to communities for each plant</li>
+<li><u><b>Cloud Synch Audit Logs</u>: </b>To view details of all clod synch transactions that were conducted</li>
+</ul>
+<h1 style="page-break-before:always; ">Back Office Setting</h1>
+<h2>QR Code Tool Kit</h2>
+<h1 style="page-break-before:always; ">How to Access Back office setting and Configuration</h1>
+<h2>How to Access Back office setting and Configuration</h2>
+<p>The Back office setting in M2C is very important to configure the plant data attributes and select the type of products which are manufactured by the plant. The back office setting also allows the plants to select the documents which have to be uploaded to ALM and also the access controls. A detailed flow of the back office configuration is in the link here</p>
+<h1 style="page-break-before:always; ">QR Code Creation </h1>
+<h2>QR Code Tool Kit</h2>
+<h1 style="page-break-before:always; ">How can you create an asset in M2C V2.0 (One at a time approach)</h1>
+<h2>How can you create an asset in M2C V2.0 (One at a time approach)</h2>
+<p>Click on this button</p>
+<p>Step 1: Click on the create asset/QR Code</p>
+<p>Select the appropriate connectivity tag</p>
+<p><b>FAQ:</b></p>
+<ul>
+<li>I am unable to find my product in the product list in step 2? This is because the product is not enabled in the plant master. If it’s a new product, the product must be enabled in product master first followed by enabling the product in your plant. If its an existing product, you will just have to enable the product in your plant master. <a href="#Slide 79"><u>Click here </u></a>for step-by-step instructions</li>
+<li>I am getting an error which says “ Separator not exist” in BOSO-SOI? Ensure the BOSO-SOI follows the template designed by the plant. Please check with your plant master for more details on this</li>
+</ul>
+<p>Write the name of the Asset</p>
+<p>Step 2: Fill all the details</p>
+<p>Select if it’s a KIOSK, SWB, Cubicle or Product you want to register</p>
+<p>Choose different connectivity tag for KIOSK, Switchboards and Cubicles. – No interlocking of connectivity</p>
+<p>By entering the Project reference from DATE the Asset details can be added</p>
+<h1 style="page-break-before:always; ">How can you create an asset in M2C V2.0 (Bulk upload)</h1>
+<h2>How can you create an asset in M2C V2.0 (Bulk upload)</h2>
+<p><b>FAQ:</b></p>
+<ul>
+<li>What is the difference between Bulk Upload/Bulk Update? Bulk upload is used when you want to create a set of new assets together while bulk update is when you want to update any characteristics of a set of already created assets in one shot</li>
+</ul>
+<p><b>Step 1: </b>Click on “Bulk Upload” under “More Action”</p>
+<p><b>Step 2: </b>This pop up will appear. Always download the QRTransaction template to ensure smooth upload.</p>
+<p><b>Step 3: </b>Update data in the format of the excel. All red font texts are indicative and should be removed when making your entries. Grey cells means they will be auto populated and need not be inputted by the user. <u>Click here </u>for detailed excel walkthrough</p>
+<p><b>Step 4: </b>This Upload/Drag the excel into this box and click “Upload” and data will get uploaded </p>
+<p>New field asset name added</p>
+<h1 style="page-break-before:always; ">How can you create an asset in M2C V2.0 (Bulk upload)</h1>
+<h2>How can you create an asset in M2C V2.0 (Bulk upload)</h2>
+<p>M2C can be used to create the complete hierarchy for Tracking using the same Bulk Upload Template </p>
+<p>In the Product Name field, along with existing products like Switchboard, Cubicle, and Kiosk, the DEVICE and COMPONENT products will also be visible. This makes it easier for users to select the appropriate details and upload them.</p>
+<p><b>Note</b>  : To make Part tracker Products visible in the product name Dropdown list,&nbsp; it must be configured in the respective plants</p>
+<p>Note: Prodcut Name is not a mandatory field. The field can be left blank but Commercial refernce is mandatory&nbsp;</p>
+<h1 style="page-break-before:always; "><b>Bulk Upload Functionality Available to Add Two More Layers: Device and Component</b></h1>
+<h2><b>Bulk Upload Functionality Available to Add Two More Layers: Device and Component</b></h2>
+<p>      Possible Parent - Child Hierarchy</p>
+<p>        </p>
+<ul>
+<li> <b>KIOSK    </b>                                   = SWB, CUB, DEVICE,COMPONENT</li>
+<li> <b>KIOSK ,SWB                             </b>= CUB, DEVICE,COMPONENT</li>
+<li> <b>KIOSK ,SWB ,CUB                    </b>= DEVICE,COMPONENT</li>
+<li> <b>KIOSK ,SWB ,CUB ,</b> <b>DEVICE   </b>= COMPONENT</li>
+</ul>
+<p>If the parent is a <b>KIOSK</b>, we have four possible hierarchy types that can be added. However, if the parent is a COMPONENT, no further hierarchy can be created, as it is the last layer and cannot act as a parent to any other hierarchy type. This rule applies similarly in all cases.</p>
+<h1 style="page-break-before:always; "><b>Bulk Upload Functionality Available to Add Two More Layers: Device and Component</b></h1>
+<h2><b>Bulk Upload Functionality Available to Add Two More Layers: Device and Component</b></h2>
+<p>5 Layers Hierarchy View in Both </p>
+<p>M2C as well as in ALM </p>
+<p>M2C</p>
+<p>ALM</p>
+<h1 style="page-break-before:always; ">How can you create an asset in M2C V2.0 (Cloud Synch) </h1>
+<h2>How can you create an asset in M2C V2.0 (Cloud Synch) </h2>
+<p>It is an automated method to upload bulk/ single documents into M2C basis the documents that are placed in the cloud shared folder . Two applications are there:</p>
+<ul>
+<ul>
+<li><b>If asset is already created</b>: Use this functionality to mass upload documents associated with the asset</li>
+<li><b>If asset is not created</b>: By placing the files for any given asset in the shared folder, M2C will automatically create the asset and tag the documents under the asset using Cloud Synch</li>
+</ul>
+</ul>
+<p><b>High level user flow </b></p>
+<p><b>1. Go to shared folder path</b></p>
+<p><b>3. Place your documents in either the equipment/ product folder (To do folder)</b></p>
+<p><b>2. Rename the documents of the asset in the defined file format</b></p>
+<p><b>4. M2C will process 40 do / 45 min and documents will reflect in M2C application </b></p>
+<p><b>File Format</b></p>
+<p><b>If Equipment:</b></p>
+<p>File format: &lt;Project Reference&gt; #&lt;Generic Comm Ref.&gt; # &lt;Serial Number&gt; # &lt;DocType&gt;# &lt;Language&gt;</p>
+<p><b>If Product*: </b></p>
+<p>File Format: &lt;Product Name&gt;_&lt;Generic Comm Ref.&gt;_&lt;Serial Number&gt;_&lt;DocType&gt;_&lt;Language&gt;</p>
+<p><b>Language Format</b>: EN for English . <b>#</b>Other formats :DE/RU/ES/TR/PT/AR/HY/ZH/FR</p>
+<p><i>* Product Name – Field not mandatory</i></p>
+<p><i># To add any other language format please raise a ticket or contact the M2C super admin</i></p>
+<p><b>FAQ:</b></p>
+<ul>
+<li>Where is the shared folder path :  Request your respective plant admin to get access to the shared folder for your respective plant.</li>
+<li>If you are a high-volume plant, more than 1000 files a day, you would need to raise a ticket for cloud synch access. If small volume plant, please reach out to M2C team for getting the access</li>
+<p>3. &nbsp;If I want to immediately synch the files , is there a way?</p>
+<p>4. My documents are getting failed , what could be the reason?</p>
+<ul>
+<li>File format is not correct as per given template</li>
+<li>Plant admin has not configured the plant master correctly with the documents necessary. <a href="#Slide 82"><u>Click here </u></a>to know detailed steps for this</li>
+<p>5. Is there a step-by-step instruction for Equipment/Product upload: <u>Click here</u></p>
+<p><u></u></p>
+</ul>
+</ul>
+<p><b>Plant admins to ensure product and document master is updated</b></p>
+<p><b>User Flow</b></p>
+<p><b>File Structure of the Shared Folder for each plant: </b></p>
+<p>Equipment/Product</p>
+<ul>
+<ul>
+<li>To Do : destination folder to place your files</li>
+<li>Archive : where you will see all the successfully uploaded files</li>
+<li>Failed : where you will see the failed uploads</li>
+</ul>
+</ul>
+<p><b>Step 0</b></p>
+<h1 style="page-break-before:always; ">Dedicated Solution for High-volume plants (Cloud Sync)</h1>
+<h2>Dedicated Solution for High-volume plants (Cloud Sync)</h2>
+<p><b>Note</b> : Dedicated cloud folders are not automatically created for each plant. You must request a ticket for your plant to access.</p>
+<p>Folder structure</p>
+<p>SharePoint Folder</p>
+<p>Dedicated BOT for High Volume plants</p>
+<p>ALM</p>
+<p>Send File to ALM</p>
+<p>Send File information and Asset information to M2C</p>
+<p>M2C</p>
+<p>Flow</p>
+<ul>
+<li>This Solution can sync 15K- 20K files per <b>plant / day</b> </li>
+</ul>
+<p>A dedicated solution for the plant (&gt; 1000 files per day) to sync documents</p>
+<h1 style="page-break-before:always; ">Some key instructions to follow while using cloud sync</h1>
+<h2>Some key instructions to follow while using cloud sync</h2>
+<ul>
+<li>The document name and Com ref number must match exactly and be listed in the plant settings.</li>
+<li>The document type (example, Shipment Certificate / RTR / etc) must be available for the plant and must match the document type that is configured in the plant settings.</li>
+<li>Cloud Sync checks the document type against the list of document types that are configured for the plant. It is allowed to upload documents that are not configured for a product in plant.</li>
+<li>The serial number must be unique and cannot be used by any other plant.</li>
+<li>The document must have one of the allowed file extensions. Other file extensions are not allowed</li>
+<li>If a user tries to upload a document that already exists in ALM, a new version of the document will be created.</li>
+<li>The document file size must be within the 100 MB in M2C.</li>
+<li>Cloud Sync BOT will sync documents one by one. In each 45-minute cycle, 40 documents will be synched per plant, depending on whether the documents are for equipment or products.</li>
+<p>9. For new plants, the Cloud Sync folder structure must exist and be accessible to SESA or SESI users</p>
+</ul>
+<h1 style="page-break-before:always; ">QR Code Generation Restrictions - User Product configuration</h1>
+<h2>QR Code Generation Restrictions - User Product configuration</h2>
+<p><b>The list of registered users</b>, apart from&nbsp;<b>the plant admin</b>&nbsp;and&nbsp;<b>super admin</b>, will be displayed here.</p>
+<p>For&nbsp;<b>each respective user</b>, certain products can be selected&nbsp;<b>that are accessible only to that user</b>.</p>
+<p>Note – By default All user will access with all products</p>
+<p>List of users</p>
+<p>List of Products</p>
+<h1 style="page-break-before:always; ">QR Code Generation Restrictions-User Product configuration</h1>
+<h2>QR Code Generation Restrictions-User Product configuration</h2>
+<p>Only the user-specific equipment and products  will be displayed here.</p>
+<p><b>Non-user-specific equipment and Products</b>&nbsp;will either&nbsp;<b>not be displayed</b>&nbsp;or&nbsp;<b>will be in the disabled state</b>.</p>
+<h1 style="page-break-before:always; ">How can you create an asset in M2C V2.0 (RPA Bot)</h1>
+<h2>How can you create an asset in M2C V2.0 (RPA Bot)</h2>
+<p>Another automated way of creating assets using UiPath. Using RPA bot you can create an asset as well as upload documents without manual intervention</p>
+<p><b>High level user flow </b></p>
+<p><b>2. Place the documents in the folder structure as given in the mapping file</b></p>
+<p><b>4.BOT processes each line item in the trigger excel and uploads documents if any placed in predefined paths</b></p>
+<p><b>3. BOT gets triggered at the agreed upon time for the plant</b></p>
+<p><b>5. Output folder will have an excel which gives you status of the trigger excel</b></p>
+<p><b>1. Fill the Trigger excel file</b></p>
+<p><b>Step 1: </b>Fill trigger excel. All the columns marked in green are mandatory for the BOT to run while the ellow ones are optional. Fill this excel and place it in the shared folder which is given to your plant under “Input” folder </p>
+<p><b>Step 2: </b>For the documents that need to be uploaded for each asset. Place the documents in the folder path mentioned in the mapping file </p>
+<p><b>FAQ:</b></p>
+<p><b></b></p>
+<ul>
+<li>How do I get access to the shared path for my plant for RPA Bot upload? Please reach out to your plant admin for the access</li>
+<p><u></u></p>
+<li>Is RPA bot method of upload same as cloud synch? No, these are two different methods of uploading and creating assets. </li>
+<li>Can I use the same shared folder for cloud synch and RPA Bot? No there are two different folders for both, so please check with plant admin for the access</li>
+<li>If I want to upload the documents in a different path than what is mentioned in mapping file, what should I do? Please reach out to your plant admin who is the deciding person for the folder paths for the documents</li>
+<li>For more details on RPA BOT process : Follow the link : <a href="https://schneiderelectric.sharepoint.com/sites/globaleto-digitalGroup/SitePages/AutomationCatalog.aspx"><u>Automation Catalog of Global ETO (sharepoint.com)</u></a></li>
+<li>My plant currently does not have RPA BOT access. How do I get this? Please raise a ticket in CAN Portal (<a href="https://schneiderelectric.sharepoint.com/sites/CAN/SitePages/Home.aspx"><u>CAN I HELP? Group - Home (sharepoint.com)</u></a> )</li>
+</ul>
+<h1 style="page-break-before:always; ">“AssetName” field in M2C &gt; ALM</h1>
+<h2>“AssetName” field in M2C &gt; ALM</h2>
+<p>Optional available for all type of&nbsp;equipment</p>
+<p>Incomer 1990</p>
+<p>Incomer 1990</p>
+<h1 style="page-break-before:always; ">What are the pre-requisites to ensure smooth QR Code creation?</h1>
+<h2>What are the pre-requisites to ensure smooth QR Code creation?</h2>
+<p><b>One time Upload</b></p>
+<p><b></b></p>
+<ul>
+<li>I am unable to see my product listed in the asset registration page – The plant admin needs to configure the products available . <a href="#Slide 81"><u>Click here </u></a>to see step by step instructions</li>
+<p><b>Bulk Upload</b></p>
+<li>Understand how to fill the bulk upload excel- <a href="#Slide 80"><u>Click here </u></a>for details</li>
+<p><b></b></p>
+<p><b></b></p>
+<p><b>Cloud Sync</b></p>
+<p><b></b></p>
+<li>Ensure the products/equipment that will require cloud synch feature are already created in the product tab of plant master with the correct generic commercial reference. <a href="#Slide 81"><u>Click here</a> </u>to see step by step instructions</li>
+<li>Ensure the documents to be uploaded have been defined and enabled in the plant master . <a href="#Slide 82"><u>Click here </u></a>to see step by step instructions</li>
+<li>Provide cloud synch access to the user who will manage the file upload. <a href="#Slide 83"><u>Click here </u></a>to see step by step instructions</li>
+</ul>
+<h1 style="page-break-before:always; ">BOSO-SOI CONFIGURATION- Important Pre Requisites</h1>
+<h2>BOSO-SOI CONFIGURATION- Important Pre Requisites</h2>
+<p>Master Settings  Plant Masters  Choose your plant  BOSO Configuration tab</p>
+<p>Path to be followed for BOSOSOI configuration</p>
+<p>EXAMPLE</p>
+<p><b>As part of the interlinkings between DATE, M2C and DRIFT application, BOSO and SOI numbers are now crucial. Note that BOSO and SOI are mandatory to close asset flow. BOSO and SOI is a key number to help service team going further into the tracking of the installed base</b></p>
+<p>I don’t fully understand the red arrows&nbsp;</p>
+<p>Is it the step by step process?</p>
+<p>BOSO and its SOI should be configured for equipement and product</p>
+<h1 style="page-break-before:always; ">Plant-specific mandatory configurations for BOSO-SOI.</h1>
+<h2>Plant-specific mandatory configurations for BOSO-SOI.</h2>
+<p>In the Plant Master screen, we can configure the BOSO-SOI field as mandatory or non-mandatory based on the plant.</p>
+<h1 style="page-break-before:always; ">Document Upload</h1>
+<h2>QR Code Tool Kit</h2>
+<h1 style="page-break-before:always; ">Manual document upload method </h1>
+<h2>Manual document upload method </h2>
+<p><b>When to use this approach: </b>When asset is already created in M2C and you need to upload documents for the assets</p>
+<p><b>Step 1: </b>Click on the cloud button shown below to upload documents. If the cloud button is blue in color it means the asset has no document, if its green it means the asset has some document ( the number of documents can be seen in the “number of document” header<b> </b></p>
+<p><b>Step 2: </b>Upload the relevant documents across the given sections and click upload document</p>
+<p><b>FAQ:</b></p>
+<p><b></b></p>
+<ul>
+<li><b>Why do I not see any folder structure in screenshot 2 for my asset?                </b>Ensure you have enabled the document in the plant master under Document Selection and Document Permission Tab. <a href="#Slide 84"><u>Click here </u></a>to see step by step instructions </li>
+<p><u></u></p>
+<li><b>Is there any format I need to follow when uploading documents into the folders? </b>No, the tool is intelligent enough to pick up any format of the document as long as they are one of the document types as given in the “file type” on the bottom of the screen and will upload them in a standard naming format</li>
+<li><b>Can I transfer an asset without uploading the documents?                                             </b>No. You cannot transfer the asset without uploading the mandatory documents as selected in the document configuration section.</li>
+</ul>
+<h1 style="page-break-before:always; ">Clone/Copy Document Upload Method</h1>
+<h2>Clone/Copy Document Upload Method</h2>
+<p><b>When to use this approach: </b>When asset is already created in M2C and you want to copy the documents of one asset to another one or multiple other assets</p>
+<p><b>Step 1: </b>Click on the three dots next to an <u>asset which already has documents inside it </u>. You will see the below options in the drop down. Click on “Clone Document”</p>
+<p><b>Step 2: </b>Search with SO or serial number(s) or Purchase Order(s) and select correct serial number(s) to where the documents need to be copied and click “Copy Documents”.</p>
+<p><b>FAQ:</b></p>
+<p><b></b></p>
+<ul>
+<li><b>How do I select multiple assets for cloning? </b>At step 2, once you search the Sales Order/Purchase Order /Serial Number, a drop down will appear with all the assets, please select all the assets needed and click Copy</li>
+<li><b>Why can't I see a clone document option on my asset? </b>Is it because there is no document attached to it. You can only clone documents from an asset which already has some documents attached to it</li>
+<li><b>Can I clone specific documents from an asset to another , or will I have to copy all of them?</b></li>
+</ul>
+<h1 style="page-break-before:always; ">Custom Documents</h1>
+<h2>QR Code Tool Kit</h2>
+<h1 style="page-break-before:always; ">How to use custom documents?</h1>
+<h2>How to use custom documents?</h2>
+<p><b>FAQ:</b></p>
+<p><b></b></p>
+<ul>
+<li><b>I made a mistake while changing custom document name? How do I fix this? - </b>Document name and extension can be changed once only, if you want to modify then connect with Deployment leader. </li>
+</ul>
+<ul>
+<li>Custom documents is a feature in M2C which allows plants to personalize the documents for their assets to best fit the needs of the production. These are document insertion provisions where you can name the document according to your need and upload them to be pushed to M2C. </li>
+<li>Today M2C allows you to <b>create up to 14 custom documents</b></li>
+</ul>
+<p>On click, Popup will be opened, and you can define the Document name and extension .</p>
+<h1 style="page-break-before:always; ">How to update data in M2C</h1>
+<h2>QR Code Tool Kit</h2>
+<h1 style="page-break-before:always; ">Manual update</h1>
+<h2>Manual update</h2>
+<p><b>Step 1: </b>Click on Update Record/ Update Connectivity level by clicking on the options under “three dots”</p>
+<p><b>Step 2a: </b>If Update connectivity level is clicked, the below pop up will come where you change connectivity status and click “Update” </p>
+<p><b>Step 2b: </b>If “Update Record” is clicked, there are a lot of details you can add/modify for your respective asset</p>
+<p><b>When to use this approach: </b>If you want to modify the details of one asset at a time</p>
+<h1 style="page-break-before:always; ">Update Asset Name Functionality in M2C Home page</h1>
+<h2>Update Asset Name Functionality in M2C Home page</h2>
+<p>Click on Edit button allows editing the names of the selected asset.</p>
+<p>This button <b>allows you to update</b> the asset name in both ALM and M2C.</p>
+<h1 style="page-break-before:always; ">M2C bulk update PAGE with pre-filled template for assets(1/2)</h1>
+<h2>M2C bulk update PAGE with pre-filled template for assets(1/2)</h2>
+<p>This feature will navigate to the <b>pre-filled bulk update screen</b> where you can select based on your requirements</p>
+<h1 style="page-break-before:always; ">M2C bulk update PAGE with pre-filled template for assets (2/2)</h1>
+<h2>M2C bulk update PAGE with pre-filled template for assets (2/2)</h2>
+<p><b>This feature allows you to search and reset the asset table, making it easy to select the specific assets you need.</b></p>
+<p><b>The select all button allows for mass selection and removal.</b></p>
+<p>Unlike the &quot;Select All&quot; button, you can also select assets individually based on your requirements.</p>
+<p><b>This date feature allows you to retrieve data based on specific days, months, and years.</b></p>
+<p><b>Once you've selected the assets, click the cloud icon to download them.</b></p>
+<h1 style="page-break-before:always; ">Bulk Update</h1>
+<h2>Bulk Update</h2>
+<p><b>When to use this approach: </b>If you want to modify the details multiple assets at a time</p>
+<p><b>Step 2: </b>Either upload FOName excel if it is already prepared or download the excel  by clicking “Download FOName Template”<b> </b></p>
+<p><b>Step 1: </b>Click on Bulk Update under More Actions</p>
+<p><b>Step 2: </b>If you download the excel, this is the file you will open. All entries in red are all sample data points and need to be removed prior to filling the details. All details of the assets that need to be updated need to be filled in here and uploaded in the first screenshot of Step 2<b> </b></p>
+<p>Column for Capturing Bfo ID </p>
+<p>This coloumn captures the FO email id during creation itself </p>
+<h1 style="page-break-before:always; ">Bulk Excel upload/update via Cloud-Sync</h1>
+<h2>Bulk Excel upload/update via Cloud-Sync</h2>
+<p>Steps to follow the Excel bulk operations via Cloud Sync</p>
+<ul>
+<li><b>Download template</b>: Get the <u>latest </u>bulk upload/update template.</li>
+<li><b>Fill and store</b>: Add your data, save the file in the &quot;ToDo&quot; folder.</li>
+<li><b>BOT processes</b>: The BOT runs 4 times daily and processes files.</li>
+<li><b>Valid format</b>: Correct files move to &quot;Achieved&quot; folder with status / comments.</li>
+<li><b>Invalid format</b>: Incorrect files move to &quot;Failed&quot; folder with comments.</li>
+</ul>
+<p><b>Note</b> : Bulk upload/update cloud folders are not automatically created for each plant. You must request a ticket for your plant to access.</p>
+<h2>Allow uploading of &quot;bulk update&quot; and &quot;bulk upload&quot; via cloud-sync function</h2>
+<h1 style="page-break-before:always; ">Master Settings – Plant Master</h1>
+<h2>QR Code Tool Kit</h2>
+<h1 style="page-break-before:always; ">How to update plant master details – high level  </h1>
+<h2>How to update plant master details – high level  </h2>
+<p><b>Step 1: </b>Go to master settings and click on “Plant Master” . Select the plant you want to edit. You might see multiple plants if you have access to multiple plants, otherwise you will just see your plant </p>
+<p><b>When to update plant master: </b>If For the following needs you can find solutions in plant master:</p>
+<ul>
+<li>Enable/Disable any product/equipment that is available today in Product Master for your plant</li>
+<li>Enable/Disable any type of document for the plant</li>
+<li>Change document permission type for any of the documents listed under each product/equipment</li>
+</ul>
+<p><b>Step 2: </b>These are high level configurations that every plant master has access to, for configuring the plant.</p>
+<h1 style="page-break-before:always; ">How to update plant master details – Product Configuration</h1>
+<h2>How to update plant master details – Product Configuration</h2>
+<p><b>When to update plant master: </b>If For the following needs you can find solutions in plant master:</p>
+<ul>
+<li><b>Enable/Disable any product/equipment that is available today in Product Master for your plant</b></li>
+<li>Enable/Disable any type of document for any of the product/equipment</li>
+<li>Change document permission type for any of the documents listed under each product/equipment</li>
+</ul>
+<p><b>Step 1: </b>Click on Product Configuration tab. Search for the product you want on the search bar and enable/disable it by clicking on the toggle button on the right</p>
+<p><b>FAQ: </b>If you cannot find the product/equipment you are searching for, it is because it is not registered in the product master, <u>click here </u>to understand how to add a product/equipment to product master</p>
+<h1 style="page-break-before:always; ">How to update plant master details – Document Selection</h1>
+<h2>How to update plant master details – Document Selection</h2>
+<p><b>When to update plant master: </b>If For the following needs you can find solutions in plant master:</p>
+<ul>
+<li>Enable/Disable any product/equipment that is available today in Product Master for your plant</li>
+<li><b>Enable/Disable any type of document for the plant</b></li>
+<li>Change document permission type for any of the documents listed under each product/equipment</li>
+</ul>
+<p><b>Step 1: </b>Click on Document Selection tab. Enable/disable any document it by clicking on the toggle button on the right</p>
+<p><b>FAQ: </b></p>
+<ul>
+<li>There are 15 custom documents in the list of documents that can be named into any document of your choice for a plant and can be enabled/disabled </li>
+<li>If you once name a custom document and then want to change it later, please reach out to Super Admin as only they have the access to rename any custom document </li>
+<li>Document selection is not done at a product/equipment level but at a plant level</li>
+</ul>
+<h1 style="page-break-before:always; ">How to update plant master details – Document Permission</h1>
+<h2>How to update plant master details – Document Permission</h2>
+<p><b>When to update plant master: </b>If For the following needs you can find solutions in plant master:</p>
+<ul>
+<li>Enable/Disable any product/equipment that is available today in Product Master for your plant</li>
+<li>Enable/Disable any type of document for the plant</li>
+<li><b>Change document permission type for any of the documents listed under each product/equipment</b></li>
+</ul>
+<p><b>Step 1: </b>Click on Document Permission tab. Make decisions of whether document is mandatory, or if it needs to made restricted</p>
+<p><b>FAQ: </b></p>
+<ul>
+<li>Document permission is done at a product/equipment level  or at product category wise level. Click here to make these decision at product category level</li>
+</ul>
+<h1 style="page-break-before:always; ">Master Settings – Manage Users</h1>
+<h2>QR Code Tool Kit</h2>
+<h1 style="page-break-before:always; ">How to add/modify a user into the M2C database</h1>
+<h2>How to add/modify a user into the M2C database</h2>
+<p>Step 1: Click on Master Settings -&gt; Manage Users </p>
+<p>Step 2:  You can search for an existing user or click on Add New User</p>
+<p>Step 3:  If you click on “Add New User” the following pop up will come up and by entering the following details you can create user</p>
+<p>How do I modify rights for a user? Click on edit button below</p>
+<ul>
+<li>User Permission: If you want to edit user access levels , please use this feature</li>
+<li>Multiple plant permission: Incase multiple plant permission. Only super admins have access for this</li>
+<li>Audit logs: to see details of any user will be available here</li>
+</ul>
+<h1 style="page-break-before:always; ">How to add/modify a Key user into the M2C database</h1>
+<h2>How to add/modify a Key user into the M2C database</h2>
+<p>Step 1: Click on Master Settings -&gt; Manage Users </p>
+<p>Step 2:  Scroll down to the configuration section and select the check box for Key User</p>
+<p>Please add 2 key users. It ensures a backup in case of unavailability </p>
+<h1 style="page-break-before:always; ">How to transfer assets?</h1>
+<h2>QR Code Tool Kit</h2>
+<h1 style="page-break-before:always; ">Asset Transfer</h1>
+<h2>Asset Transfer</h2>
+<p>Asset transfer can be done in three ways:</p>
+<ul>
+<ul>
+<li>Front Office which is for Inside Group (IG) Transfer</li>
+<li>Inter plant transfer</li>
+<li>Outside Group (OG) which is direct transfer </li>
+</ul>
+</ul>
+<p><b>Step 1: </b>Search by Sales Order / Serial number / Production order</p>
+<p><b>Step 2</b>: Select the relevant assets or you can click top 10 assets from the list</p>
+<p><b>Step 3</b>: Click on “close project” to transfer selected assets  </p>
+<p><b>High level steps to transfer assets</b></p>
+<p><b>Step 1</b></p>
+<p><b>Step 2</b></p>
+<p><b>Step 3</b></p>
+<p>Transferred Assets will be shown with Tick marked icon</p>
+<p>If you mouse hover on the Tick marked the popup will show the FO details</p>
+<p>Not transferred Assets will be shown with a blank checkbox which will be used to select them as well</p>
+<h1 style="page-break-before:always; ">Asset Transfer-Auto Transfer feature</h1>
+<h2>Asset Transfer-Auto Transfer feature</h2>
+<p>Asset transfer can be done in an automated method as well using the Auto transfer feature available in M2C.For the auto transfer feature to be used the following conditions need to be full filled:</p>
+<ul>
+<ul>
+<li>The Asset must have the FO email id in case of IG flow. For IP/OG flow the email is not required as check for Auto transfer</li>
+<li>The Asset must have mandatory documents selected and uploaded </li>
+</ul>
+</ul>
+<p><b>High level steps to transfer assets</b></p>
+<p><b>Step 1: </b>The Auto Transfer feature must be activated in the Back office Setting</p>
+<p><b>Step 2: Add the FO Email id either in Bulk upload or manual method</b></p>
+<h1 style="page-break-before:always; ">Asset Transfer : FO IG Transfer</h1>
+<h2>Asset Transfer : FO IG Transfer</h2>
+<p><b>Step 1</b>: After clicking on Close Project, select IG Transfer and then </p>
+<p>this popup will appear</p>
+<p><b>Step 3:</b>Upate FO PM email</p>
+<p><b>Step 2: </b>Confirm connectivity type</p>
+<h1 style="page-break-before:always; ">Asset Transfer : IP Transfer</h1>
+<h2>Asset Transfer : IP Transfer</h2>
+<p><b>Step 1</b>: After clicking on Close Project, select IP Transfer and then </p>
+<p>this popup will appear</p>
+<p><b>Step 2: </b>Confirm connectivity type</p>
+<p><b>Step 3: </b>At least one email id is needed, add more email id using user lookup</p>
+<p><b>Step 4: </b>click to transfer all those assets together </p>
+<h1 style="page-break-before:always; ">Asset Transfer : OG / D Flow Transfer</h1>
+<h2>Asset Transfer : OG / D Flow Transfer</h2>
+<p><b>Step 1</b>: After clicking on Close Project, select IP Transfer and then </p>
+<p>this popup will appear</p>
+<p><b>Step 2: </b>Confirm connectivity type</p>
+<p><b>Step 3: </b>click to transfer all those assets together </p>
+<h1 style="page-break-before:always; ">Interlock Functionality to transfer Assets without BOSO SOI, only if configured</h1>
+<h2>Interlock Functionality to transfer Assets without BOSO SOI, only if configured</h2>
+<p>Empty BOSOI Value will be displayed like this respective check box will be disabled </p>
+<h1 style="page-break-before:always; ">Asset Transfer Scenario: Customers with flow through a DC</h1>
+<h2>Asset Transfer Scenario: Customers with flow through a DC</h2>
+<p>Scenario details: If your plant has an OG flow with a customer that goes to a DC from where you do not which site of the customer it goes through as illustrated below</p>
+<p>Plant gets an OG order from a customer for 2X assets</p>
+<p>X (50%) assets to be shipped to the known customer site</p>
+<p>1. X (50%) assets to be shipped to external warehouse of the plant</p>
+<p>2. These assets then get shipped to a customer DC</p>
+<p>3. Assets are later at some point sent to different sites </p>
+<p><b>Familiar Flow</b></p>
+<p><b>Unfamiliar Flow</b></p>
+<p>Next Step: Plant will register the asset in ALM with Customer details</p>
+<p><b>Next Step: Plant does not know the end customer details, so how should the plant register these assets in ALM?</b></p>
+<p><b>Solution</b></p>
+<ul>
+<li>For registering the asset give the headquarter details of the customer as customer details and register the asset to ALM</li>
+<li>The above step can be done after step 1, there is no more action item left with the plant on the asset</li>
+<li>The end customer can at step 3 register final site details , but this is not the responsibility of the plant to get this detail captured</li>
+<li>If you have any more clarifications , please reach out to the M2C deployment team to help you with your query</li>
+</ul>
+<h1 style="page-break-before:always; ">Connectivity Nomenclature</h1>
+<h2>Connectivity Nomenclature</h2>
+<p>STD Switchgear</p>
+<p><b>Release Version</b></p>
+<p><b>DATE</b></p>
+<p><b>M2C</b></p>
+<p><b>Details</b></p>
+<p>No Versioning</p>
+<ul>
+<li>Digital Logbook</li>
+<li>Optional: Thermal app with sensors included</li>
+</ul>
+<ul>
+<li>Not Connectable</li>
+<li>Connectable with sensors only</li>
+</ul>
+<p>Release 1.0</p>
+<p>Release 2.x</p>
+<p>Release 2.x</p>
+<ul>
+<li>Connectable to Edge</li>
+<li>Connectable with relays only</li>
+</ul>
+<p>Connected to Cloud</p>
+<p>Connected to Cloud with PD</p>
+<ul>
+<li>Cond. Monitoring at edge level.</li>
+<ul>
+<li>TH, CL and CB monitoring at edge level with SMD HMI</li>
+</ul>
+<li>Or Only relay connectivity</li>
+</ul>
+<ul>
+<li>Native cloud connectivity to EcoStruXure asset advisor using COMx gateway. </li>
+<li>Standard architecture with TH, CL, Protection relay to cloud gateway and 4G Modem</li>
+<li>Connectivity done and tested at plants</li>
+</ul>
+<ul>
+<li>Active architecture upgraded with Partial discharge integration</li>
+<li>PD100, VDIS, PAS Concentrator to asset advisor </li>
+<li>Connectivity done and tested at plants</li>
+</ul>
+<p>Active Plus</p>
+<p>Active</p>
+<p>Connected to Cloud</p>
+<p>Connected to Cloud with PD</p>
+<ul>
+<li>Not Connectable</li>
+<li>Connectable with sensors only</li>
+</ul>
+<ul>
+<li>Connectable to Edge</li>
+<li>Connectable with relays only</li>
+</ul>
+<p>If you need help in deciding the Connectivity tag - </p>
+<p>Please contact the Regional Tendering Director</p>
+<h1 style="page-break-before:always; ">Part Tracker</h1>
+<h2>QR Code Tool Kit</h2>
+<h1 style="page-break-before:always; "><b>Bulk Upload Functionality Available to Add Two More Layers: Device and Component</b></h1>
+<h2><b>Bulk Upload Functionality Available to Add Two More Layers: Device and Component</b></h2>
+<h2><b></b></h2>
+<h1 style="page-break-before:always; "><b>Bulk Upload Functionality Available to Add Two More Layers: Device and Component</b></h1>
+<h2><b>Bulk Upload Functionality Available to Add Two More Layers: Device and Component</b></h2>
+<p>In the Product Name field, along with existing products like Switchboard, Cubicle, and Kiosk, the DEVICE and COMPONENT products will also be visible. This makes it easier for users to select the appropriate details and upload them.</p>
+<p><b>Note</b>  : To make the Part tracker Products to be visible in the product name Dropdown list  it must be configured in the respective plants  </p>
+<h1 style="page-break-before:always; "><b>Bulk Upload Functionality Available to Add Two More Layers: Device and Component</b></h1>
+<h2><b>Bulk Upload Functionality Available to Add Two More Layers: Device and Component</b></h2>
+<p>      Possible Parent - Child Hierarchy</p>
+<p>        </p>
+<ul>
+<li> <b>KIOSK    </b>                                   = SWB, CUB, DEVICE,COMPONENT</li>
+<li> <b>KIOSK ,SWB                             </b>= CUB, DEVICE,COMPONENT</li>
+<li> <b>KIOSK ,SWB ,CUB                    </b>= DEVICE,COMPONENT</li>
+<li> <b>KIOSK ,SWB ,CUB ,</b> <b>DEVICE   </b>= COMPONENT</li>
+</ul>
+<p>If the parent is a <b>KIOSK</b>, we have four possible hierarchy types that can be added. However, if the parent is a COMPONENT, no further hierarchy can be created, as it is the last layer and cannot act as a parent to any other hierarchy type. This rule applies similarly in all cases.</p>
+<h1 style="page-break-before:always; "><b>Bulk Upload Functionality Available to Add Two More Layers: Device and Component</b></h1>
+<h2><b>Bulk Upload Functionality Available to Add Two More Layers: Device and Component</b></h2>
+<p>5 Layer Hierarchy View in Both </p>
+<p>M2C as well as in ALM </p>
+<p>M2C</p>
+<p>ALM</p>
+<h1 style="page-break-before:always; "><b>Enhanced asset hierarchy scanning:</b></h1>
+<ul>
+<li><b>Enhanced asset hierarchy scanning:</b></li>
+<ul>
+<li>supports all 5 layers of asset hierarchy</li>
+<li>Enables accurate detection and tracking across each hierarchy level</li>
+</ul>
+<li><b>Improved parent child mapping:</b></li>
+<ul>
+<li>Establishes link between any 2 layers of hierarchy.
+Eg: Kiosk -&gt; Cubicle, Switchboard -&gt; brick</li>
+<li>Enhances traceability and structural clarity</li>
+</ul>
+<li><b>Direct Integration with M2C App ensuring real-time updates:</b> </li>
+<ul>
+<li>combined database for complete traceability&nbsp;</li>
+<li>Enables real-time data exchange with M2C by maintaining single master database</li>
+</ul>
+<li><b>Support for Third-Party Additions:</b> </li>
+<ul>
+<li>ability to add third party asset in the hierarchy</li>
+<li>Increases compatibility with extended asset environments</li>
+</ul>
+</ul>
+<h2>Upcoming features for Part tracker</h2>
+<h1 style="page-break-before:always; ">Part Tracker Mobile App changes</h1>
+<h2>Part Tracker Mobile App changes</h2>
+<p>supports all 5 layers of asset hierarchy</p>
+<ul>
+<li>Enhanced asset hierarchy scanning</li>
+<li>Enables accurate detection and tracking across each hierarchy level</li>
+</ul>
+<p>Improved parent child mapping</p>
+<ul>
+<li>Establishes link between any 2 layers of hierarchy.​</li>
+<li>Eg:Kiosk-&gt;Cubicle, Switchboard-&gt;Component</li>
+</ul>
+<h1 style="page-break-before:always; ">KIOSK</h1>
+<h2>QR Code Tool Kit</h2>
+<h1 style="page-break-before:always; ">What is a KIOSK</h1>
+<h2>What is a KIOSK</h2>
+<ul>
+<li>A KIOSK is a Substation / eHOUSE</li>
+<li>An enclosure containing different type of Equipment, being delivered as 1 unit to the customer.</li>
+</ul>
+<h1 style="page-break-before:always; ">Creating a KIOSK manually</h1>
+<h2>Creating a KIOSK manually</h2>
+<p>New KIOSK layer can be added based on the configuration done on the Plant Master Settings. Need to Enable KIOSK from the configuration to create KIOSK.</p>
+<p>The KIOSK Serial Number is at the top layer of the hierarchy.</p>
+<p>The Switchboard Serial Number can exist independently or as a child of the KIOSK layer or as a parent of the cubicle layer in the hierarchy.</p>
+<p>The Cubicle Serial Number can exist independently as a child of the Switchboard/KIOSK layer in the hierarchy</p>
+<h1 style="page-break-before:always; ">KIOSK-Manual Creation screen for SWB &amp; CUB</h1>
+<h2>KIOSK-Manual Creation screen for SWB &amp; CUB</h2>
+<p>Have added Generic Ref code, BO SO – SOI, Connectivity Type and Offer Type to the last generated QR details</p>
+<p>Parent Serial number details are listed differentiating whether they are KIOSK or Switchboard based on project reference</p>
+<p><b>Note: </b>A standalone KIOSK can't be transferred. Only KIOSK with child assets like switchboards and cubicles will be allowed to be transferred.</p>
+<h1 style="page-break-before:always; ">Creating Hierarchy in KIOSK</h1>
+<h2>Creating Hierarchy in KIOSK</h2>
+<p>While creating a hierarchy, you can add Switchboard/cubicle directly </p>
+<p>The new KIOSK symbol</p>
+<p>Upper hierarchy for KIOSK can be added using this</p>
+<h1 style="page-break-before:always; ">KIOSK - Main Screen</h1>
+<h2>KIOSK - Main Screen</h2>
+<p>KIOSK</p>
+<p>Switchboard</p>
+<p>Cubicle</p>
+<p>KIOSK (Top Layer) is the Parent of all below switchboard and cubicle</p>
+<p>Switchboard(Middle Layer) is the child of KIOSK and Parent of Cubicle</p>
+<p>Cubicle(Bottom Layer) is the child of KIOSK and Switchboard</p>
+<p>KIOSK</p>
+<p>Switchboard</p>
+<p>Cubicle</p>
+<h1 style="page-break-before:always; ">KIOSK Bulk Update</h1>
+<h2>KIOSK Bulk Update</h2>
+<p>Based on the </p>
+<p>Hierarchy flow KIOSK and Switchboard serial number can be used as parent serial number for respective child assets(for kiosk -&gt; switchboard and Cubicle are child assets and for Switchboard-&gt;cubicle is the child asset)</p>
+<h1 style="page-break-before:always; ">GLOSSARY</h1>
+<h2>QR Code Tool Kit</h2>
+<h1 style="page-break-before:always; ">Glossary : Symbols</h1>
+<h2>Glossary : Symbols</h2>
+<table>
+  <tr>
+    <td>
+<p>It indicates a cubicle entry</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>Any asset that is transferred will be shown with a tick mark</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>It indicates a SWB entry</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>This will be shown against a cubicle entry and it is a button to add a SWB to this cubicle</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>This will be shown against a SWB entry and it is a button to add a cubicle to this SW</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>This indicates cloud upload and by clicking on this you can upload documents to your asset</p>
+    </td>
+  </tr>
+</table>
+<p>Can we add the symbols of all new levels please</p>
+<h1 style="page-break-before:always; ">Glossary : Useful Links</h1>
+<h2>Glossary : Useful Links</h2>
+<table>
+  <tr>
+    <td>
+<p><b>SE Asset</b></p>
+    </td>
+    <td>
+<p><b>Asset Link</b></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>M2C Production Server</p>
+    </td>
+    <td>
+<p><a href="https://leap.schneider-electric.com/m2c"><u>https://leap.schneider-electric.com/m2c</u></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>M2C QA Server</p>
+    </td>
+    <td>
+<p><a href="https://qa.leap.schneider-electric.com/m2c"><u>https://qa.leap.schneider-electric.com/m2c</u></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>M2C PPR Server</p>
+    </td>
+    <td>
+<p><a href="https://ppr.leap.schneider-electric.com/m2c"><u>https://ppr.leap.schneider-electric.com/m2c</u></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>ALM</p>
+    </td>
+    <td>
+<p><a href="https://alm.se.com/console"><u>Asset Lifecycle Manager</u></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>Go2se</p>
+    </td>
+    <td>
+<p><a href="https://www.go2se.com/ref=EF700200/sn=0"><u>Go2SE</u></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>M2C Support Central</p>
+    </td>
+    <td>
+<p><a href="https://schneider.service-now.com/supportatschneider?id=sc_cat_item&amp;sys_id=fd9fd3da973c01d03817db00f153af80&amp;sysparm_category=43987c891b3fb0507ddd53dc2d4bcb9c"><u>SE Internal Landing Page - support@Schneider (service-now.com)</u></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>CAN Portal</p>
+    </td>
+    <td>
+<p><a href="https://schneiderelectric.sharepoint.com/sites/CAN/SitePages/Home.aspx"><u>https://schneiderelectric.sharepoint.com/sites/CAN/SitePages/Home.aspx</u></a></p>
+    </td>
+  </tr>
+</table>
+<h1 style="page-break-before:always; "></h1>
+<h1 style="page-break-before:always; ">Product availability in asset register page</h1>
+<h2>Product availability in asset register page</h2>
+<ul>
+<li>In the asset creation page, you will see list of assets that you can create <u>over here</u>. You can view 9 assets at a time and these will be the most created assets. All assets that are enabled in the plant master will be available in this screen.</li>
+<li>By clicking on <u>more products</u>, you will be able to see all the products</li>
+</ul>
+<p>FAQs</p>
+<ul>
+<li>I cannot see my asset even when I click through more products? This is because the asset is not enabled in the plant master. <u>Click here </u>to understand how to enable an asset in the plant master</li>
+</ul>
+<h1 style="page-break-before:always; ">Bulk upload excel detailed walkthrough</h1>
+<h2>Bulk upload excel detailed walkthrough</h2>
+<table>
+  <tr>
+    <td>
+<p><b>Column Name</b></p>
+    </td>
+    <td>
+<p><b>Column Type</b></p>
+    </td>
+    <td>
+<p><b>Column Description</b></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>Plant Name</p>
+    </td>
+    <td>
+<p>Pre filled</p>
+    </td>
+    <td>
+<p>Name of the plant will be pre filled when you download the excel</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>Product Name</p>
+    </td>
+    <td>
+<p>Drop Down</p>
+    </td>
+    <td>
+<p>Select the product for which you need to create asset from the dropdown</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>Offer Type</p>
+    </td>
+    <td>
+<p>Drop Down</p>
+    </td>
+    <td>
+<p>Select the type of offer</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>Generic Reference Number</p>
+    </td>
+    <td>
+<p>Automatically filled by Excel</p>
+    </td>
+    <td>
+<p>Commercial reference will get auto populated basis the product you select in product name</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>Serial Number</p>
+    </td>
+    <td>
+<p>Manual</p>
+    </td>
+    <td>
+<p>Fill the serial number you want to add to the asset (optional)</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>Project Reference</p>
+    </td>
+    <td>
+<p>Manual</p>
+    </td>
+    <td>
+<p>Fill the project reference number (optional)</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>BO Sales Order No</p>
+    </td>
+    <td>
+<p>Manual</p>
+    </td>
+    <td>
+<p>Fill the BOSO-SOI (optional)</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>Production Order Number</p>
+    </td>
+    <td>
+<p>Manual</p>
+    </td>
+    <td>
+<p>Fill the production order number (optional)</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>Hierarchy Type</p>
+    </td>
+    <td>
+<p>Drop Down</p>
+    </td>
+    <td>
+<p>Select the hierarchy from drop down</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>Switchboard Serial Number</p>
+    </td>
+    <td>
+<p>Manual</p>
+    </td>
+    <td>
+<p>Only needed for cubicle entries. Select the serial number of switchboard to which the cubicle needs to be added to</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>Connectivity Type</p>
+    </td>
+    <td>
+<p>Drop Down</p>
+    </td>
+    <td>
+<p>Select connectivity status of asset </p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p>FO Name</p>
+    </td>
+    <td>
+<p>Drop Down</p>
+    </td>
+    <td>
+<p>Select FO to which you need to transfer the asset to. Only needed for IG orders</p>
+    </td>
+  </tr>
+</table>
+<h1 style="page-break-before:always; ">How to enable the product tab of plant master for cloud synch</h1>
+<h2>How to enable the product tab of plant master for cloud synch</h2>
+<p><b>Step 1: </b>Click on Product Configuration tab. Search for the product you want on the search bar and enable/disable it by clicking on the toggle button on the right</p>
+<p><b>FAQ: </b>If you cannot find the product/equipment you are searching for, it is because it is not registered in the product master, <u>click here </u>to understand how to add a product/equipment to product master</p>
+<h1 style="page-break-before:always; ">How to enable documents upload in plant master for cloud synch</h1>
+<h2>How to enable documents upload in plant master for cloud synch</h2>
+<p><b>Step 1: </b>Click on Document Selection tab in plant master. Enable/disable any document it by clicking on the toggle button on the right</p>
+<p><b>FAQ: </b></p>
+<ul>
+<li>There are 15 custom documents in the list of documents that can be named into any document of your choice for a plant and can be enabled/disabled </li>
+<li>If you once name a custom document and then want to change it later, please reach out to Super Admin as only they have the access to rename any custom document </li>
+<li>Document selection is not done at a product/equipment level but at a plant level</li>
+</ul>
+<p><b>Step 2: </b>Click on Document Permission tab. Make decisions of whether document is mandatory, or if it needs to made restricted</p>
+<p><b>FAQ: </b></p>
+<ul>
+<li>Document permission is done at a product/equipment level  or at product category wise level. Click here to make these decision at product category level</li>
+</ul>
+<h1 style="page-break-before:always; ">How to provide cloud synch access to users to manage cloud synch</h1>
+<h2>How to provide cloud synch access to users to manage cloud synch</h2>
+<ul>
+<li>This activity can be done only by a <b>plant master or super admin</b>. </li>
+<li>Please reach out to your respective plant master if you need access for cloud synch folder</li>
+</ul>
+<p><b>Step 1: </b>Click on master settings and go to plant master. </p>
+<p><b>Step 1: </b>Scroll to the bottom of the page and head to cloud folder permissions. Add the user email id or first four letters of the user here and click on add to give the user cloud folder permission </p>
+<p><b>FAQ: </b></p>
+<ul>
+<li>If you are unable to find the user, it would mean the user is not registered in the user data base of M2C. <u>Click here </u>to know how to register the user to M2C data base</li>
+</ul>
+<h1 style="page-break-before:always; ">Why do I not see any document folders when I click document upload?</h1>
+<h2>Why do I not see any document folders when I click document upload?</h2>
+<ul>
+<li>This is because you have not enabled the document in the plant master under Document Selection and Document Permission Tab. </li>
+</ul>
+<p>Click on picture below to see detailed steps on how to enable them in the plant master tab of M2C. </p>
+<h1 style="page-break-before:always; ">Error 1: Issue in ALM connectivity with M2C</h1>
+<h2>Error 1: Issue in ALM connectivity with M2C</h2>
+<table>
+  <tr>
+    <td>
+<p><b>What was user trying to do</b>: delete a record of an asset in M2C</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Why did the error occur</b>: Error usually occurs when the user tries to delete an asset which they already created in M2C and ALM hierarchy is impacted</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Solution: </b>User will have to raise a ticket to get this resolved</p>
+    </td>
+  </tr>
+</table>
+<h1 style="page-break-before:always; ">Error 2: Mismatched Hierarchies</h1>
+<h2>Error 2: Mismatched Hierarchies</h2>
+<table>
+  <tr>
+    <td>
+<p><b>What was user trying to do</b>: add a SWB to a cubicle or vice versa</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Why did the error occur</b>: Error usually occurs when the user tries to delete an asset which they already created in M2C and ALM hierarchy is impacted</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Solution: </b>User will have to raise a ticket to get this resolved</p>
+    </td>
+  </tr>
+</table>
+<h1 style="page-break-before:always; ">Error 3: Separator not exist in Project Reference field</h1>
+<h2>Error 3: Separator not exist in Project Reference field</h2>
+<table>
+  <tr>
+    <td>
+<p><b>What was user trying to do</b>: create a new switchboard asset</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Why did the error occur</b>: If &quot;Auto Copy Project Reference to BOSaleOrderNumber&quot; is enabled for the respective plant, it will copy the correct value added in the project reference number field to BOSO-SOI field. If the project reference number does not match the criteria, such as length separators, it will throw an error and remove the value from the BOSOI field as well.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Solution: </b>Check in plant master if the above mentioned field is enabled, if so please remove it and try again . If issue persists please raise a ticket</p>
+    </td>
+  </tr>
+</table>
+<h1 style="page-break-before:always; ">MMR Adoption Dashboard : <a href="https://tableau.schneider-electric.com/#/site/ETOSmartfactoryBI/views/MMRAdoptiontool/GENERAL?=null,&amp;:iid=2"><u>MMR</u></a></h1>
+<h2>MMR Adoption Dashboard : <a href="https://tableau.schneider-electric.com/#/site/ETOSmartfactoryBI/views/MMRAdoptiontool/GENERAL?=null,&amp;:iid=2"><u>MMR</u></a></h2>
+<p><b>MMR Adoption Analysis</b>– Consolidated view for M2C adoption rate across plants based on BOSO-SOI and Assets transferred rate</p>
+<p>Click to get the rules</p>
+<h1 style="page-break-before:always; ">MMR Adoption Dashboard</h1>
+<h2>MMR Adoption Dashboard</h2>
+<p><b>MMR Adoption Analysis</b>– Consolidated view for M2C adoption rate across plants based on BOSO-SOI and Assets transferred rate</p>
+<h1 style="page-break-before:always; ">M2C adoption dashboard (link in M2C/report)</h1>
+<h2>M2C adoption dashboard (link in M2C/report)</h2>
+<p><b>Adoption Overview Dashboard </b>– same as MMR dashboard but date range can be selected to view data focused to equipment creation in M2C. It shows multiple data points to understand the no. of assets created &amp; transferred, assets without mandatory documents and BOSO-SOI. The data can be filtered based on the user requirements</p>
+<h1 style="page-break-before:always; ">Equipment Dashboard (link in M2C/dashboard)</h1>
+<h2>Equipment Dashboard (link in M2C/dashboard)</h2>
+<p><b>Equipment Overview Dashboard </b>– to view data focused to equipment creation and transfer in M2C. It shows multiple data points to understand the no. of assets created &amp; transferred, assets without mandatory documents and BOSO-SOI. The data can be filtered based on the user requirements</p>
+<p><b>Performance view </b>to understand if assets are transferred over time</p>
+<p><b>Service view</b> to have cumulated trends </p>
+<h1 style="page-break-before:always; ">Product Dashboard</h1>
+<h2>Product Dashboard</h2>
+<p><b>Product Dashboard </b>– To view data focused to product creation in M2C. It shows multiple data points to understand the no. of assets created, documents uploaded &amp; asset documentation rate.</p>
+</body>
+</html>
